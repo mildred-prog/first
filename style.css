@@ -1,0 +1,330 @@
+body{
+    background: #242830;
+    color: white;
+    font-size: 1rem;
+    font-family: sans-serif;
+
+}
+
+.spacing{
+    padding-top: 5em;
+}
+
+#header-1 {
+    margin-left: 30px;
+    width: 40%;
+    padding: 50px 50px;
+
+}
+
+#header-1 h1{
+    font-size: bold;
+    color: white;
+}
+
+#header-1 p{
+    font-size: 18px;
+    color: #8A94A7;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#preorder{
+    color:white;
+    background-color:  #0270D7;
+    font-size: medium;
+    padding: 16px 20px;
+
+}
+
+#getin{
+    color:white;
+    background-color: #242830;
+    font-size: medium;
+    padding: 16px 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+
+}
+.spacing1{
+    padding-top: 0em;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 15em;
+}
+
+#main h3{
+    color: white;
+}
+
+.p1{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.1px;
+    color: #8A94A7;
+    padding: 10%;
+}
+
+.p2{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.1px;
+    color: #8A94A7;
+    padding: 10%;
+}
+.p3{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.1px;
+    color: #8A94A7;
+    padding: 10%;
+}
+.p4{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.1px;
+    color: #8A94A7;
+    padding: 10%;
+}
+.p5{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.1px;
+    color: #8A94A7;
+    padding: 10%;
+}
+.p6{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.1px;
+    color: #8A94A7;
+    padding: 10%;
+}
+
+.section-title{
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.section-paragraph{
+    text-align: center;
+    display: block;
+    font-family: "IBM Plex Sans", sans-serif;
+    
+
+}
+.amount{
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid rgba(138,148,167,0.24);
+    justify-content: center;
+    /* background-color: red; */
+    width:400px;
+    margin: 0 auto;
+
+}
+.get{
+    display: flex;
+    /* padding: 20px ;  */
+    list-style-type: none;
+    justify-content: left;
+    text-align: left;
+    width:400px;
+    margin: 0 auto;
+
+
+}
+.list li{
+    display: flex;
+    padding: 20px ; 
+    list-style-type: none;
+    border-bottom: 1px solid rgba(138,148,167,0.24);
+    justify-content: left;
+    text-align: left;
+    width:400px;
+    margin: 0 auto;
+
+}
+#buy{
+    display:flex;
+    color:white;
+    background-color:  #0270D7;
+    font-size: medium;
+    padding: 16px 32px;
+    border-bottom: none;
+    
+}
+
+#aside{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 82%;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+#aside button {
+    padding: 1px 40px;
+    color: white;
+    background-color: rgb(0 128 255);
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#socials {
+    display: flex;
+    list-style-type: none;
+
+}
+
+#socials li {
+    padding: 2px;
+}
+
+#contact{
+    display: flex;
+}
+#contact li {
+    padding: 5px;
+    list-style-type: none;
+    color:#8A94A7;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+/** mobile style **/
+@media screen and (max-width: 620px) {
+    #header-1 {
+        padding: 5%;
+        width: 60%;
+        margin: 0 auto;
+
+    }
+
+    #preorder {
+        display: block;
+        padding: 18px 50px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #getin {
+        display: block;
+        padding: 18px 50px;
+        width: 80%;
+
+}
+
+.p1 {
+    width: 100%;
+}
+
+.p2{
+    width: 100%;
+}
+
+.p3{
+    width: 100%;
+}
+
+.p4 {
+    width: 100%;
+}
+
+.p5 {
+    width: 100%;
+}
+
+.p6{
+    width: 100%;
+}
+   
+.section-title {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 25px;
+}
+
+.section-paragraph{
+    font-size: 20px;
+}
+
+
+.list {
+    width: 100%;
+    justify-self: center;
+}
+
+#aside {
+    display: block;
+    margin: 0 auto;
+    margin: 20px;
+    font-size: 10px;
+    justify-items: center;
+    align-items: center;
+    padding: 40px;
+    width: 80%;
+    height: 10em;
+}
+
+#aside h1{
+    margin-bottom: 20px;
+    justify-self: center;
+
+}
+
+#aside button {
+    padding: 20px 80px;
+    justify-self: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+
+#links {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#socials {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#contact {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+footer {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+}
